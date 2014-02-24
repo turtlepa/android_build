@@ -86,7 +86,10 @@ TARGET_arm_CFLAGS :=    -O3 \
                         -fno-ipa-cp-clone \
                         -fno-vect-cost-model \
                         -Wno-error=unused-parameter \
-                        -Wno-error=unused-but-set-variable
+                        -Wno-error=unused-but-set-variable \
+                        -Wno-unused-parameter \
+                        -Wno-unused-value \
+                        -Wno-unused-function
 
 # Modules can choose to compile some source as thumb.
 TARGET_thumb_CFLAGS :=  -mthumb \
@@ -102,7 +105,10 @@ TARGET_thumb_CFLAGS :=  -mthumb \
                         -fno-ipa-cp-clone \
                         -fno-vect-cost-model \
                         -Wno-error=unused-parameter \
-                        -Wno-error=unused-but-set-variable
+                        -Wno-error=unused-but-set-variable \
+                        -Wno-unused-parameter \
+                        -Wno-unused-value \
+                        -Wno-unused-function
 
 # Set FORCE_ARM_DEBUGGING to "true" in your buildspec.mk
 # or in your environment to force a full arm build, even for
