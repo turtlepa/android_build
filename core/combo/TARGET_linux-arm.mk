@@ -83,7 +83,6 @@ TARGET_arm_CFLAGS :=    -O3 \
                         -Wstrict-aliasing=3 \
                         -Werror=strict-aliasing \
                         -fgcse-after-reload \
-                        -fgcse-las \
                         -fno-ipa-cp-clone \
                         -fno-vect-cost-model \
                         -Wno-error=unused-parameter \
@@ -103,7 +102,6 @@ TARGET_thumb_CFLAGS :=  -mthumb \
                         -Wstrict-aliasing=3 \
                         -Werror=strict-aliasing \
                         -fgcse-after-reload \
-                        -fgcse-las \
                         -fno-ipa-cp-clone \
                         -fno-vect-cost-model \
                         -Wno-error=unused-parameter \
@@ -187,7 +185,6 @@ TARGET_RELEASE_CFLAGS := \
 			-Werror=strict-aliasing \
 			-fstrict-aliasing \
 			-fgcse-after-reload \
-                        -fgcse-las \
 			-frerun-cse-after-loop \
 			-frename-registers \
 			-fno-ipa-cp-clone \
