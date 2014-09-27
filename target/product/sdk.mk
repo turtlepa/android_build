@@ -23,7 +23,6 @@ PRODUCT_PACKAGES := \
 	FusedLocation \
 	Gallery \
 	Keyguard \
-	Music \
 	Mms \
 	PrintSpooler \
 	libwnndict \
